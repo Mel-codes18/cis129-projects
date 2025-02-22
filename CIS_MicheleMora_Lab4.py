@@ -11,7 +11,7 @@ salesIncrease = 0 #sales increase amount
 prompt = 0
 
 #monthly sales 
-monthlySales = int(input ('Enter monthly sales amount:' ))
+monthlySales = float(input ('Enter monthly sales amount:' ))
 7
 #store bonus amount based on monthly sales
 if monthlySales >= 110000:
@@ -27,7 +27,7 @@ else:
 
 
 #code that gets percent of sales increase
-salesIncrease = int(input('Enter monthly sales increase:' ))
+salesIncrease = float(input ('Enter monthly sales increase:' ))
 salesIncrease = salesIncrease / 100
 
 #code that determines employee bonuses based on sales increase
@@ -36,7 +36,7 @@ if salesIncrease >= .05:
 elif salesIncrease >= .04:
     employeeAmount = 50
 elif salesIncrease >= .03:
-    employeeAmount >= 40
+    employeeAmount = 40
 else:
     employeeAmount = 0
 

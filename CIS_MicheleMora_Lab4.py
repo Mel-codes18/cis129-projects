@@ -12,7 +12,7 @@ prompt = 0
 
 #monthly sales 
 monthlySales = float(input ('Enter monthly sales amount:' ))
-7
+
 #store bonus amount based on monthly sales
 if monthlySales >= 110000:
     storeBonus = 6000

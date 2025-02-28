@@ -46,3 +46,4 @@ print("The store bonus amount is $", storeBonus)
 print("The employee bonus amount is $", employeeAmount)
 if (storeBonus == 6000) and (employeeAmount == 75):
     print('Congrats! You have reached the highest bonus amounts possible! ')
+input("")
